@@ -1,1 +1,1 @@
-
+Desconsiderar o arquivo "TransilvaniaMobileDataBase.sql" do pacote, apenas o execute para criar o banco de dados afim de efetuar os testes e se possivel em seguida remova-o do diretorio para não ocorrer erros na aplicação.
