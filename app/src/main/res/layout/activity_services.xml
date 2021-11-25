@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464FB5"
+    android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    tools:context=".ServicesActivity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="#00CECECE"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="172dp">
+
+
+        <TextView
+            android:id="@+id/text_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginBottom="5dp"
+            android:text="Serviço" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_service"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textView"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:inputType="none"
+                android:text="SPA" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_date"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textViewDate"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:inputType="none"
+                android:text="08/11/2021" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="181dp"
+            android:layout_marginEnd="159dp"
+            android:text="Data" />
+
+        <Button
+            android:id="@+id/btn_agendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_date"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="110dp"
+
+
+
+            android:text="Agendar" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

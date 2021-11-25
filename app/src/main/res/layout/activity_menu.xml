@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF5252"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="#00CECECE"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <Button
+        android:id="@+id/btn_services_requested"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="4dp"
+        android:background="#cecece"
+        android:text="Serviços solicitados" />
+
+    <Button
+        android:id="@+id/btn_solProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="4dp"
+        android:background="#cecece"
+        android:text="Solicitar Produtos" />
+
+    <Button
+        android:id="@+id/btn_solServicos"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="4dp"
+        android:background="#cecece"
+        android:text="Solicitar Serviços" />
+
+</LinearLayout>

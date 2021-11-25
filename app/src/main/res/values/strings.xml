@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Transilvania</string>
+    <string name="spa">SPA</string>
+    <string name="yoga">YOGA</string>
+    <string name="academia">ACADEMIA</string>
+    <string name="coca_cola">COCA-COLA</string>
+    <string name="pepsi">PEPSI</string>
+    <string name="sprite">SPRITE</string>
+    <string name="vinho">VINHO</string>
+    <string name="hbo">HBO</string>
+    <string name="telecine">TELECINE</string>
+    <string name="espn">ESPN</string>
+    <string name="snicker">SNICKERS</string>
+    <string name="fini">FINI</string>
+    <string name="pipoca">PIPOCA</string>
+    <string name="bebidas">BEBIDAS</string>
+    <string name="doces">DOCES</string>
+    <string name="canais">CANAIS</string>
+    <string name="camareira">CAMAREIRA</string>
+    <string name="solicitar">Solicitar</string>
+    <string name="produto">Produto</string>
+    <string name="servi_os_solicitados">Serviços solicitados</string>
+    <string name="produtos_solicitados">Produtos Solicitados</string>
+
+</resources>

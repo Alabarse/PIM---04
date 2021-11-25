@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="services_room" >
+        <item>@string/academia</item>
+        <item>@string/spa</item>
+        <item>@string/yoga</item>
+        <item>@string/camareira</item>
+    </string-array>
+
+    <string-array name="products_tv" >
+        <item>@string/espn</item>
+        <item>@string/hbo</item>
+        <item>@string/telecine</item>
+    </string-array>
+
+    <string-array name="products_drinks">
+        <item>@string/coca_cola</item>
+        <item>@string/pepsi</item>
+        <item>@string/vinho</item>
+        <item>@string/sprite</item>
+    </string-array>
+
+    <string-array name="products_foods">
+        <item>@string/pipoca</item>
+        <item>@string/snicker</item>
+        <item>@string/fini</item>
+    </string-array>
+
+    <string-array name="products_types">
+        <item>@string/canais</item>
+        <item>@string/doces</item>
+        <item>@string/bebidas</item>
+    </string-array>
+
+</resources>

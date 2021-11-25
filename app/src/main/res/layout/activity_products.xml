@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3EBA57"
+    android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    tools:context=".ServicesActivity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="#00CECECE"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="130dp"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/text_product_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Tipo" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_product_type">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:editable="false"
+                android:inputType="none"
+                android:text="@string/bebidas" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_product">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textView_products"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="false"
+                android:inputType="none"
+                android:text="@string/coca_cola" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_product"
+            android:layout_marginTop="80dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/products_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="false"
+                android:inputType="none"
+                android:text="R$7,00"
+                android:textAlignment="center"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btn_solProdutos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-195dp"
+            android:text="Valor" />
+
+        <TextView
+            android:id="@+id/text_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:text="@string/produto" />
+
+        <Button
+            android:id="@+id/btn_solProdutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            android:text="@string/solicitar" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

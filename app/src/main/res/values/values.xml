@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="coca_value">R$7,00</string>
+    <string name="pepsi_value">R$7,00</string>
+    <string name="vinho_value">R$40,00</string>
+    <string name="sprite_value">R$7,00</string>
+    <string name="pipoca_value">R$5,00</string>
+    <string name="snickers_value">R$4,00</string>
+    <string name="fini_value">R$3,00</string>
+    <string name="espn_value">R$25,00</string>
+    <string name="hbo_value">R$25,00</string>
+    <string name="telecine_value">R$25,00</string>
+</resources>

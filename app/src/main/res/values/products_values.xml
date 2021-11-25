@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drinks_values" >
+        <item>@string/coca_value</item>
+        <item>@string/sprite_value</item>
+        <item>@string/vinho_value</item>
+        <item>@string/pepsi_value</item>
+    </string-array>
+
+    <string-array name="food_values" >
+        <item>@string/fini_value</item>
+        <item>@string/snickers_value</item>
+        <item>@string/pipoca_value</item>
+    </string-array>
+
+    <string-array name="tv_values" >
+        <item>@string/espn_value</item>
+        <item>@string/hbo_value</item>
+        <item>@string/telecine_value</item>
+    </string-array>
+</resources>

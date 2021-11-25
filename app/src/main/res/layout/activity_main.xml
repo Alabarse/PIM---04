@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA4040"
+    android:orientation="vertical"
+    android:padding="100dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_name_hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="TRANSILVANIA"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name_hotel"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="ID"
+        android:textColor="#FFF5F5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/value_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_id"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/value_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="SENHA"
+        android:textColor="#FFF5F5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/value_password"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_password"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/value_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#B87272"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:background="#CC2727"
+        android:clickable="true"
+        android:text="Ainda não é hospede? Clique aqui"
+        android:textColor="#2086D6"
+        android:textSize="15sp" />
+
+</RelativeLayout>
